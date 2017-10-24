@@ -1,8 +1,18 @@
 {
   "name": "express-tutorial",
   "version": "1.0.0",
-  "dependencies": {
+  "dependencies":
+  {
     "express": "~4.13.1",
-    "ejs": "~2.4.1"
+    "ejs": "~2.4.1",
+    "body-parser": "~1.14.2",
+    "express-session": "~1.13.0"
   }
 }
+
+// body-parser : POST 데이터 처리
+// express-session : session 관리
+// EJS 템플릿 엔진
+// 템플릿을 읽어 엔진의 문법과 설정에 따라서 파일을 HTML 형식으로 변환시키는 모듈
+// <% 자바스크립트 코드 %>
+// <% 출력 할 자바스크립트 객체 %>

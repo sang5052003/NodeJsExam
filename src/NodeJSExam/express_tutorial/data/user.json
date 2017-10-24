@@ -1,0 +1,18 @@
+{
+	"first_user": {
+		"password": "updatepw",
+		"name": "updateuser"
+	},
+	"newuser": {
+		"password": "newpw",
+		"name": "kim"
+	},
+	"kim_user": {
+		"password": "pw",
+		"name": "kim1name"
+	},
+	"lee_user": {
+		"password": "pw",
+		"name": "leename"
+	}
+}
