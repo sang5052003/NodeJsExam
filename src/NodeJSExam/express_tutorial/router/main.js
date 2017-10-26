@@ -18,6 +18,10 @@ module.exports = function (app, fs) {
         });
     });
 
+// JSON 데이터를 render 메소드의 두번째 인자로 전달
+// 함으로서 페이지에서 데이터를 사용가능
+// index.ejs 에서 title, length 사용
+
     // ./ 현재 폴더
     // /../ 상위 폴더 접근
     app.get('/list', function (req, res) {
@@ -175,7 +179,3 @@ module.exports = function (app, fs) {
         }
     })
 }
-
-// JSON 데이터를 render 메소드의 두번째 인자로 전달
-// 함으로서 페이지에서 데이터를 사용가능
-// index.ejs 에서 title, length 사용
